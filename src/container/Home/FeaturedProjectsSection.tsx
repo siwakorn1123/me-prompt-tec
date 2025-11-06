@@ -18,7 +18,7 @@ export default function FeaturedProjectsSection() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
             {[1, 2, 3].map((item) => (
               <div key={item} className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-shadow">
-                <div className="h-48 bg-gradient-to-br from-blue-400 to-purple-600" />
+                <div className="h-48 bg-linear-to-brfrom-blue-400 to-purple-600" />
                 <div className="p-6">
                   <div className="flex flex-wrap gap-2 mb-3">
                     <span className="px-3 py-1 bg-blue-100 text-blue-800 text-xs rounded-full">Next.js</span>
